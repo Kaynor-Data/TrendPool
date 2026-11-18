@@ -424,3 +424,17 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+
+# Données brutes et traitées (ne pas versionner les gros fichiers)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Fichiers Power BI (souvent lourds, à versionner seulement si < 50 Mo)
+# dashboards/*.pbix
+
+# Exports temporaires
+reports/figures/*.png
+*.log
