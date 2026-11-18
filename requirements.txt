@@ -1,1 +1,16 @@
+# Core
+pandas==2.2.2
+numpy==1.26.4
 
+# Visualisation
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Notebook
+jupyter==1.0.0
+notebook==7.2.1
+ipykernel==6.29.4
+
+# Utilitaires
+openpyxl==3.1.2
+python-dateutil==2.9.0.post0
